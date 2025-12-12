@@ -1,0 +1,43 @@
+{
+    "table_extraction": {
+        "tokenizer": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_name": "lifh980706/DsrSQL-TS-Qwen2.5-Coder-7B-Instruct",
+        "device": "cuda:0",
+        "temperature": 0,
+        "top_p": null,
+        "n": 1,
+        "single": true,
+        "model_type": "causal"
+    },
+    "sql_generation": {
+        "tokenizer": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_name": "lifh980706/DsrSQL-SG-Qwen2.5-Coder-7B-Instruct",
+        "device": "cuda:0",
+        "temperature": 0,
+        "top_p": null,
+        "n": 1,
+        "single": true,
+        "model_type": "causal"
+    },
+    "sql_refinement": {
+        "tokenizer": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_name": "lifh980706/DsrSQL-SG-Qwen2.5-Coder-7B-Instruct",
+        "device": "cuda:0",
+        "temperature": 0,
+        "top_p": null,
+        "n": 1,
+        "single": true,
+        "model_type": "causal"
+    },
+    "sql_selection": {
+        "tokenizer": "Qwen/Qwen2.5-Coder-7B-Instruct",
+        "model_name": "cycloneboy/CscSQL-Merge-Qwen2.5-Coder-7B-Instruct",
+        "lora_path": null,
+        "device": "cuda:0",
+        "temperature": 0,
+        "top_p": null,
+        "n": 1,
+        "single": true,
+        "model_type": "causal"
+    }
+}

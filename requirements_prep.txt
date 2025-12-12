@@ -1,0 +1,10 @@
+pandas
+tqdm
+chardet
+pyserini
+nltk
+func_timeout
+ijson
+sql_metadata
+sqlglot
+transformers
